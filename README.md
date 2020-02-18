@@ -6,10 +6,10 @@ Personal Website of Martin Matanovic
 ### Fonts
 
 The font 'Monteserrat' is used for headers.
-[Google Font 'Montserrat'](https://fonts.google.com/specimen/Hind+Siliguri?selection.family=Montserrat)
+[Google Font 'Montserrat'](https://fonts.google.com/specimen/Montserrat)
 
 The font 'Hind Siliguri' is used for content.
-[Google Font 'Hind Siliguri'](https://fonts.google.com/specimen/Hind+Siliguri?selection.family=Hind+Siliguri)
+[Google Font 'Hind Siliguri'](https://fonts.google.com/specimen/Hind+Siliguri)
 
 ### CSS Grid
 
