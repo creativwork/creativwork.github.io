@@ -1,7 +1,61 @@
+html, body {
+   background-color: rgb(188, 0, 45);
+}
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'Archivo', sans-serif;
-   color: rgb(188, 0, 45);
+   font-family: 'Work Sans', sans-serif;
+   color: rgb(231, 231, 231);
+}
+p, cite, strong {
+   color: rgb(231, 231, 231);
 }
 .space {
    margin-top: 120px;
+}
+.thin 
+{ 
+   font-weight: 300;
+   color: rgb(231, 231, 231);
+}
+.thick 
+{ 
+   font-weight: 900;
+   color: rgb(231, 231, 231); 
+}
+a {
+   text-transform: uppercase;
+   color: rgb(231, 231, 231);
+   text-decoration: none;
+   position: relative;
+   display: block;
+   cursor:default;
+}
+
+[class^="link-"] {
+   display: inline-block;
+}
+
+/* linkone */
+.link-1 a:before, .link-1 a:after {
+   content: '';
+   border-bottom: solid 1px rgb(231, 231, 231);
+   position: absolute;
+   bottom: 0;
+   width: 0;
+}
+.link-1 a:before 
+{ 
+   left: 0; 
+}
+.link-1 a:after 
+{ 
+   right: 0; 
+}
+.link-1 a:hover:before, 
+.link-1 a:hover:after {
+   width: 50%;
+}
+.link-1 a:before, 
+.link-1 a:after {
+   -webkit-transition: all 0.2s ease;
+   transition: all 0.2s ease;
 }
