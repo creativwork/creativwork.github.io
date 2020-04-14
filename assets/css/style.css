@@ -1,10 +1,6 @@
-p {
-   font-family: 'Hind Siliguri', sans-serif;
-   color: black;
-}
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'Montserrat', sans-serif;
-   color: #BC002D;
+   font-family: 'Archivo', sans-serif;
+   color: rgb(188, 0, 45);
 }
 .space {
    margin-top: 120px;
