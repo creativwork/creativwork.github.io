@@ -8,9 +8,13 @@ h1, h2, h3, h4, h5, h6 {
 p, cite, strong {
    color: rgb(231, 231, 231);
 }
+
+/* Custom */
 .space {
    margin-top: 120px;
 }
+
+/* Hyperlink */
 .thin 
 { 
    font-weight: 300;
