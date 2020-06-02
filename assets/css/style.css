@@ -1,12 +1,22 @@
+@font-face {
+   font-family: 'Gotham';
+   src: url('../fonts/GothamBook.ttf') format('truetype');
+}@font-face {
+   font-family: 'Gotham-Bold';
+   src: url('../fonts/GothamBold.ttf') format('truetype');
+}
 html, body {
-   background-color: rgb(188, 0, 45);
+   font-family: 'Gotham', sans-serif;
+   /*background-color: rgb(188, 0, 45);*/
+   background-color: rgb(244, 198, 75);
 }
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'Work Sans', sans-serif;
-   color: rgb(231, 231, 231);
+   font-family: 'Gotham-Bold', sans-serif;
+   color: rgb(61, 61, 61);
 }
 p, cite, strong {
-   color: rgb(231, 231, 231);
+   font-family: 'Gotham', sans-serif;
+   color: rgb(61, 61, 61);
 }
 
 /* Custom */
@@ -18,16 +28,16 @@ p, cite, strong {
 .thin 
 { 
    font-weight: 300;
-   color: rgb(231, 231, 231);
+   color: rgb(61, 61, 61);
 }
 .thick 
 { 
    font-weight: 900;
-   color: rgb(231, 231, 231); 
+   color: rgb(61, 61, 61); 
 }
 a {
    text-transform: uppercase;
-   color: rgb(231, 231, 231);
+   color: rgb(61, 61, 61);
    text-decoration: none;
    position: relative;
    display: block;
@@ -41,7 +51,7 @@ a {
 /* linkone */
 .link-1 a:before, .link-1 a:after {
    content: '';
-   border-bottom: solid 1px rgb(231, 231, 231);
+   border-bottom: solid 1px rgb(61, 61, 61);
    position: absolute;
    bottom: 0;
    width: 0;
