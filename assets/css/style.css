@@ -16,12 +16,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 p, cite, strong {
    font-family: 'Gotham', sans-serif;
+   font-size: 1.6em;
    color: rgb(61, 61, 61);
 }
 
 /* Custom */
 .space {
-   margin-top: 120px;
+   margin-top: 100px;
 }
 
 /* Hyperlink */
