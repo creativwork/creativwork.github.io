@@ -1,15 +1,12 @@
 # creativwork.github.io
+
 Personal Website of Martin Matanovic
 
 ## Design
 
 ### Fonts
 
-The font 'Monteserrat' is used for headers.
-[Google Font 'Montserrat'](https://fonts.google.com/specimen/Montserrat)
-
-The font 'Hind Siliguri' is used for content.
-[Google Font 'Hind Siliguri'](https://fonts.google.com/specimen/Hind+Siliguri)
+The font 'Gotham' is used.
 
 ### CSS Grid
 
