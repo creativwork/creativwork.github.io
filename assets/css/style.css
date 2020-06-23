@@ -1,3 +1,13 @@
+/*
+* Creativwork V1.0
+* Created: 2020-06-23
+*
+* Copyright 2009-2020, Martin Matanovic
+* https://www.creativwork.org
+*
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
 @font-face {
    font-family: 'Gotham';
    src: url('../fonts/GothamBook.ttf') format('truetype');
@@ -9,6 +19,9 @@ html, body {
    font-family: 'Gotham', sans-serif;
    /*background-color: rgb(188, 0, 45);*/
    background-color: rgb(244, 198, 75);
+   line-height: 1.85em;
+   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+   -webkit-text-size-adjust: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
    font-family: 'Gotham-Bold', sans-serif;
@@ -23,6 +36,12 @@ p, cite, strong {
 /* Custom */
 .space {
    margin-top: 100px;
+}
+.centered {
+   text-align: center;
+}
+.separator {
+   margin-top: 20px;
 }
 
 /* Hyperlink */
