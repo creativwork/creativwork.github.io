@@ -1,49 +1,74 @@
 @font-face {
-   font-family: 'Gotham';
-   src: url('../../assets/fonts/GothamBook.ttf') format('truetype');
-}@font-face {
-   font-family: 'Gotham-Bold';
-   src: url('../../assets/fonts/GothamBold.ttf') format('truetype');
+  font-family: "Gotham";
+  src: url("../../assets/fonts/GothamBook.ttf") format("truetype");
 }
 @font-face {
-   font-family: 'Montebello';
-   src: url('./fonts/Montebello-Sans.ttf') format('truetype');
+  font-family: "Gotham-Bold";
+  src: url("../../assets/fonts/GothamBold.ttf") format("truetype");
 }
 @font-face {
-   font-family: 'Rubik-Bold';
-   src: url('./fonts/Rubik-Bold.ttf') format('truetype');
+  font-family: "Montebello";
+  src: url("./fonts/Montebello-Sans.ttf") format("truetype");
 }
 @font-face {
-   font-family: 'Rubik-Light';
-   src: url('./fonts/Rubik-Light.ttf') format('truetype');
+  font-family: "Rubik-Bold";
+  src: url("./fonts/Rubik-Bold.ttf") format("truetype");
 }
 @font-face {
-   font-family: 'Rubik-Medium';
-   src: url('./fonts/Rubik-Medium.ttf') format('truetype');
+  font-family: "Rubik-Light";
+  src: url("./fonts/Rubik-Light.ttf") format("truetype");
 }
 @font-face {
-   font-family: 'Rubik-Regular';
-   src: url('./fonts/Rubik-Regular.ttf') format('truetype');
+  font-family: "Rubik-Medium";
+  src: url("./fonts/Rubik-Medium.ttf") format("truetype");
 }
-html, body {
-   font-size: 1.2em;
-   line-height: 1.85em;
-   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-   -webkit-text-size-adjust: 100%;
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url("./fonts/Rubik-Regular.ttf") format("truetype");
 }
-h1, h2, h3, h4, h5, h6 {
-   color: black;
-   font-family: 'Rubik-Regular', sans-serif;
+html,
+body {
+  font-size: 1.2em;
+  line-height: 1.85em;
+  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: "Rubik-Regular", sans-serif;
 }
 h1 {
-   font-size: 2.5em;
-   margin-bottom: 0;
-   margin-top: 80px;
+  font-size: 2.5em;
+  margin-bottom: 0;
+  margin-top: 80px;
 }
 h4 {
-   font-size: 1.2em;
+  font-size: 1.2em;
 }
-p, cite, strong {
-   color: black;
-   font-family: 'Rubik-Light', sans-serif;
+p,
+cite,
+strong {
+  color: black;
+  font-family: "Rubik-Light", sans-serif;
+}
+a {
+  cursor: pointer;
+  padding-bottom: 4px;
+  text-decoration: none;
+  border-bottom: orchid 6px solid;
+  transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+}
+a:hover {
+  padding-bottom: 4px;
+  text-decoration: none;
+  border-bottom: #dac8d9 6px solid;
 }
