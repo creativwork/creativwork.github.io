@@ -53,14 +53,14 @@ h4 {
 p,
 cite,
 strong {
-  color: black;
+  color: #020202;
   font-family: "Rubik-Light", sans-serif;
 }
 a {
   cursor: pointer;
   padding-bottom: 4px;
   text-decoration: none;
-  border-bottom: orchid 6px solid;
+  border-bottom: #f4c64b 4px solid;
   transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
   -ms-transition: 1s ease-in-out;
@@ -70,5 +70,5 @@ a {
 a:hover {
   padding-bottom: 4px;
   text-decoration: none;
-  border-bottom: #dac8d9 6px solid;
+  border-bottom: #020202 4px solid;
 }

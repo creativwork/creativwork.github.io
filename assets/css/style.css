@@ -18,7 +18,7 @@
 html, body {
    font-family: 'Gotham', sans-serif;
    /*background-color: rgb(188, 0, 45);*/
-   background-color: rgb(244, 198, 75);
+   background-color: #f4c64b;
    line-height: 1.85em;
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
    -webkit-text-size-adjust: 100%;
