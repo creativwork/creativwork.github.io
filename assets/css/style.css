@@ -1,95 +1,54 @@
-/*
-* Creativwork V1.0
-* Created: 2020-06-23
-*
-* Copyright 2009-2020, Martin Matanovic
-* https://www.creativwork.org
-*
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
 @font-face {
-   font-family: 'Gotham';
-   src: url('../fonts/GothamBook.ttf') format('truetype');
-}@font-face {
-   font-family: 'Gotham-Bold';
-   src: url('../fonts/GothamBold.ttf') format('truetype');
+   font-family: "Rubik-Light";
+   src: url("./fonts/Rubik-Light.ttf") format("truetype");
 }
-html, body {
-   font-family: 'Gotham', sans-serif;
-   /*background-color: rgb(188, 0, 45);*/
-   background-color: #f4c64b;
+@font-face {
+   font-family: "Rubik-Regular";
+   src: url("./fonts/Rubik-Regular.ttf") format("truetype");
+}
+html,
+body {
+   font-size: 1.2em;
    line-height: 1.85em;
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
    -webkit-text-size-adjust: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
-   font-family: 'Gotham-Bold', sans-serif;
-   color: rgb(61, 61, 61);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: black;
+   font-family: "Rubik-Regular", sans-serif;
 }
-p, cite, strong {
-   font-family: 'Gotham', sans-serif;
-   font-size: 1.6em;
-   color: rgb(61, 61, 61);
+h1 {
+   font-size: 2.5em;
+   margin-bottom: 0;
+   margin-top: 80px;
 }
-
-/* Custom */
-.space {
-   margin-top: 100px;
+h4 {
+   font-size: 1.2em;
 }
-.centered {
-   text-align: center;
-}
-.separator {
-   margin-top: 20px;
-}
-
-/* Hyperlink */
-.thin 
-{ 
-   font-weight: 300;
-   color: rgb(61, 61, 61);
-}
-.thick 
-{ 
-   font-weight: 900;
-   color: rgb(61, 61, 61); 
+p,
+cite,
+strong {
+   color: #020202;
+   font-family: "Rubik-Light", sans-serif;
 }
 a {
-   text-transform: uppercase;
-   color: rgb(61, 61, 61);
+   cursor: pointer;
+   padding-bottom: 4px;
    text-decoration: none;
-   position: relative;
-   display: block;
-   cursor:default;
+   border-bottom: #f4c64b 4px solid;
+   transition: 1s ease-in-out;
+   -o-transition: 1s ease-in-out;
+   -ms-transition: 1s ease-in-out;
+   -moz-transition: 1s ease-in-out;
+   -webkit-transition: 1s ease-in-out;
 }
-
-[class^="link-"] {
-   display: inline-block;
-}
-
-/* linkone */
-.link-1 a:before, .link-1 a:after {
-   content: '';
-   border-bottom: solid 1px rgb(61, 61, 61);
-   position: absolute;
-   bottom: 0;
-   width: 0;
-}
-.link-1 a:before 
-{ 
-   left: 0; 
-}
-.link-1 a:after 
-{ 
-   right: 0; 
-}
-.link-1 a:hover:before, 
-.link-1 a:hover:after {
-   width: 50%;
-}
-.link-1 a:before, 
-.link-1 a:after {
-   -webkit-transition: all 0.2s ease;
-   transition: all 0.2s ease;
+a:hover {
+   padding-bottom: 4px;
+   text-decoration: none;
+   border-bottom: #020202 4px solid;
 }
