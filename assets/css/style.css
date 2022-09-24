@@ -65,3 +65,14 @@ a:hover {
 ::selection {
    background-color: #f4c64b;
 }
+
+/* Made with love area */
+.heart-container {
+   font-size: small;
+   font-weight: bold;
+}
+
+.heart-icon {
+   color: #f4c64b;
+   font-size: 1.2rem;
+}
